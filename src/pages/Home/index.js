@@ -33,11 +33,11 @@ const Homepage = () => {
           <Col lg={12} xs={12}>
             <div className={styles.sectionContainer}>
               <Section xsOffset={0}>
-                <HeaderH1 key="header-bottom" text="Nora" />
-                <HeaderH2 key="p" text="COVID-19 Bot" />
+                <HeaderH1 key="header-bottom" text="Hi,I'm Nora!" />
+                <HeaderH2 key="p" text="COVID-19 AI Bot" />
                 <Paragraph
                   key="p"
-                  text="Corona Virus Self Awarness Bot that addresses typical questions about the COVID-19 virus to help you to know about corona virus. It provides awarness about Covid-19 social distancing, self isolation, quarantine."
+                  text="Corona Virus Self Awareness Bot that addresses typical questions about the COVID-19 virus to help you to know about corona virus. It provides awarness about Covid-19 social distancing, self isolation, quarantine."
                 />
                 <div key="bot">
                   <h3>What can I do?</h3>

@@ -18,7 +18,7 @@ const Footer = () => (
 					<div className={styles.socialContainer}>
 						<ul>
 							<li>
-								<a rel="noopener noreferrer" target="_blank" href="https://github.com">
+								<a rel="noopener noreferrer" target="_blank" href="https://github.com/Archish27/Nora">
 									<FiGithub size="2em" />
 								</a>
 							</li>

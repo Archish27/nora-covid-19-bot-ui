@@ -1,0 +1,69 @@
+@import '../../styles/mixins/ParagraphMixin';
+@import '../../styles/variables';
+@import '../../styles/mixins/mediaQueries.scss';
+
+.footerWrapper {
+    padding: 60px 80px;
+    @include smMax {
+        padding: 30px;
+        background-image: none !important;
+        background-color: $light-green;
+    }
+    
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    margin-top: 100px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 0%;
+    @include smMax {
+        margin-top: 40px;;
+    }
+    .socialContainer {
+        ul {
+            list-style-type: none;
+            padding: 0;
+            margin: 40px 0px;
+            display: inline-flex;
+            li {
+                margin-right: 20px;
+                a {
+                    color: #ffffff;
+                    &:hover {
+                        svg {
+                            transition: all .4s ease;
+                            stroke: #000000;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .legalContainer {
+        max-width: 60%;
+        @include smMax {
+            max-width: unset;
+        }
+        small {
+            line-height: 18px;
+        }
+        p, small {
+            color: #ffffff;
+            @include p;
+            margin: 10px 0px;
+            letter-spacing: 1.20px;
+        }
+        .heart {
+            opacity: .9;
+            color: #ffffff;
+        }
+    }
+    .footerNavContainer {
+        padding: 40px 0px;
+        p {
+            @include p;
+        }
+    }
+}

@@ -4,7 +4,7 @@ export const CustomWidget = () => {
   return (
     <Widget
       interval={2000}
-      socketUrl="http://localhost:5005"
+      socketUrl="http://norabot.localtunnel.me"
       socketPath="/socket.io/"
       title="Nora Covid-19"
       inputTextFieldHint="Type a message..."

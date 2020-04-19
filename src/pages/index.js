@@ -5,9 +5,8 @@ import Homepage from "./Home";
 const Index = () => (
   <>
     <>
-    <CustomWidget />
+      <CustomWidget />
       <Homepage key="1" />
-      
     </>
   </>
 );

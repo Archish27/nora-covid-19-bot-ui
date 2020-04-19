@@ -37,9 +37,9 @@ const Homepage = () => {
 							<Section
 								xsOffset={0}
 							>
-                
+
 								<HeaderH1 key="header-bottom" text="Nora" />
-                <HeaderH2 key="p" text="COVID-19 Bot" />
+								<HeaderH2 key="p" text="COVID-19 Bot" />
 								<Paragraph key="p" text="Corona Virus Self Awarness Bot that addresses typical questions about the COVID-19 virus to help you to know about corona virus. It provides awarness about Covid-19 social distancing, self isolation, quarantine." />
 								<Phone key="image-bottom">
 									<div style={{

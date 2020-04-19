@@ -13,12 +13,6 @@ export const CustomWidget = () => {
       profileAvatar="logo-white.svg"
       tooltipPayload="/greet"
       params={{
-        images: {
-          dims: {
-            width: 500,
-            height: 500,
-          },
-        },
         storage: "local",
       }}
     />

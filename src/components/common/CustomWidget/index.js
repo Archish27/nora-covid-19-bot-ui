@@ -15,8 +15,8 @@ export const CustomWidget = () => {
       params={{
         images: {
           dims: {
-            width: 500,
-            height: 500,
+            width: 128,
+            height: 128,
           },
         },
         storage: "local",

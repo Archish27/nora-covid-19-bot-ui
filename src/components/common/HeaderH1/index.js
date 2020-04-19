@@ -3,11 +3,6 @@ import PropTypes from 'prop-types'
 
 import styles from './HeaderH1.module.scss'
 
-/**
-* @author zilahir
-* @function Header
-* */
-
 const HeaderH1 = props => {
 	const { text, className } = props
 	return (

@@ -6,11 +6,6 @@ import styled from 'styled-components'
 
 import styles from './Section.module.scss'
 
-/**
-* @author zilahir
-* @function Section
-* */
-
 const SectionContainer = styled.div`
 	background-color: ${props => props.backgroundColor};
 `

@@ -6,11 +6,6 @@ import FooterWave from '../../assets/img/misc/footer_wave.png'
 import { footerMenu } from '../api/footer'
 import styles from './Footer.module.scss'
 
-/**
-* @author zilahir
-* @function Footer
-* */
-
 const Footer = () => {
 	const { legalText } = footerMenu.getFooterTexts()[0]
 	const { rights } = footerMenu.getFooterTexts()[1]

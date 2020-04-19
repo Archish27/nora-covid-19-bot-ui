@@ -7,10 +7,6 @@ import styled from 'styled-components'
 
 import styles from './Image.module.scss'
 
-/**
-* @author zilahir
-* @function Image
-* */
 
 const Img = styled.img`
 	max-width: ${props => props.maxWidth}px;

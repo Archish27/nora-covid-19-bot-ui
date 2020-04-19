@@ -3,11 +3,6 @@ import React from "react";
 import Homepage from "./Home";
 import { Widget } from "rasa-webchat";
 
-/**
- * @author zilahir
- * @function Index
- * */
-
 const Index = () => (
   <>
     <Homepage />

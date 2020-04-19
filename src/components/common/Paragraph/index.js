@@ -3,11 +3,6 @@ import PropTypes from 'prop-types'
 
 import styles from './Paragraph.module.scss'
 
-/**
-* @author
-* @function Paragraph
-* */
-
 const Paragraph = props => {
 	const { text, className } = props
 	return (

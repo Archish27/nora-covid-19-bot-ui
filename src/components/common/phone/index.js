@@ -10,11 +10,6 @@ import redStars from '../../../assets/img/misc/light_blue_starts.svg'
 import '@zilahir/html5-device-mockups/dist/device-mockups.css'
 import styles from './Phone.module.scss'
 
-/**
-* @author zilahri,martincserep
-* @function Phone
-* */
-
 const PurleWrapper = styled.div`
 	&:before {
 		content: '';

@@ -4,11 +4,6 @@ import styled from "styled-components";
 
 import styles from "./Button.module.scss";
 
-/**
- * @author martincserep, zilahir
- * @function Header
- * */
-
 const Btn = styled.button`
   background-color: ${(props) => props.bgColor};
 `;

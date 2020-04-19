@@ -1,11 +1,6 @@
 import React from "react";
 import PropTypes from "prop-types";
 
-/**
- * @author zilahir
- * @function SVG
- * */
-
 const DownArrow = (props) => {
   const { color } = props;
   return (

@@ -4,7 +4,7 @@ export const CustomWidget = () => {
   return (
     <Widget
       interval={2000}
-      socketUrl="https://877c18e3.ngrok.io"
+      socketUrl="https://958f5e36.ngrok.io"
       socketPath="/socket.io/"
       title="Nora Covid-19"
       inputTextFieldHint="Type a message..."

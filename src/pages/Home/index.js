@@ -33,7 +33,7 @@ const Homepage = () => {
           <Col lg={12} xs={12}>
             <div className={styles.sectionContainer}>
               <Section xsOffset={0}>
-                <HeaderH1 key="header-bottom" text="Hi,I'm Nora!" />
+                <HeaderH1 key="header-bottom" text="Hi, I'm Nora!" />
                 <HeaderH2 key="p" text="COVID-19 AI Bot" />
                 <Paragraph
                   key="p"

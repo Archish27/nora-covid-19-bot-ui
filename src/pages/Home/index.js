@@ -12,10 +12,6 @@ import Phone from "../../components/common/phone";
 import Screen2 from "../../assets/img/phonescreens/screen_2.png";
 
 // import purpleImages from '../../assets/img/misc/pruple_dots.svg'
-/**
- * @author zilahir,martincserep
- * @function Homepage
- * */
 
 const Homepage = () => {
   // const store = useStore()
